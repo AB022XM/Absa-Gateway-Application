@@ -1,14 +1,12 @@
 package ug.co.absa.africa.payments.gateway.web.rest;
 
 import jakarta.validation.Valid;
-import java.security.Principal;
 import java.util.Objects;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 import ug.co.absa.africa.payments.gateway.repository.UserRepository;
 import ug.co.absa.africa.payments.gateway.security.SecurityUtils;

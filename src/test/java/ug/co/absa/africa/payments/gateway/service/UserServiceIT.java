@@ -12,13 +12,11 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
 import tech.jhipster.security.RandomUtil;
 import ug.co.absa.africa.payments.gateway.IntegrationTest;
 import ug.co.absa.africa.payments.gateway.config.Constants;
 import ug.co.absa.africa.payments.gateway.domain.User;
 import ug.co.absa.africa.payments.gateway.repository.UserRepository;
-import ug.co.absa.africa.payments.gateway.service.dto.AdminUserDTO;
 
 /**
  * Integration tests for {@link UserService}.

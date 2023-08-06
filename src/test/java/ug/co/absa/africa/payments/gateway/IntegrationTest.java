@@ -6,7 +6,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
-import ug.co.absa.africa.payments.gateway.AbsaDtGatewayApplicationApp;
 import ug.co.absa.africa.payments.gateway.config.AsyncSyncConfiguration;
 import ug.co.absa.africa.payments.gateway.config.EmbeddedSQL;
 

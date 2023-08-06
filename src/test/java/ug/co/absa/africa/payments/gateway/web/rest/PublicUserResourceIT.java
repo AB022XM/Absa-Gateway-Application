@@ -10,7 +10,6 @@ import org.springframework.http.MediaType;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import ug.co.absa.africa.payments.gateway.IntegrationTest;
-import ug.co.absa.africa.payments.gateway.config.Constants;
 import ug.co.absa.africa.payments.gateway.domain.User;
 import ug.co.absa.africa.payments.gateway.repository.EntityManager;
 import ug.co.absa.africa.payments.gateway.repository.UserRepository;

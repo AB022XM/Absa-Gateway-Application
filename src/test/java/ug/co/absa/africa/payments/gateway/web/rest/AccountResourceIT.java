@@ -23,7 +23,6 @@ import ug.co.absa.africa.payments.gateway.security.AuthoritiesConstants;
 import ug.co.absa.africa.payments.gateway.service.UserService;
 import ug.co.absa.africa.payments.gateway.service.dto.AdminUserDTO;
 import ug.co.absa.africa.payments.gateway.service.dto.PasswordChangeDTO;
-import ug.co.absa.africa.payments.gateway.service.dto.UserDTO;
 import ug.co.absa.africa.payments.gateway.web.rest.vm.KeyAndPasswordVM;
 import ug.co.absa.africa.payments.gateway.web.rest.vm.ManagedUserVM;
 
