@@ -880,9 +880,9 @@
                 <!-- default Spring profiles -->
                 <spring.profiles.active>dev${profile.tls}${profile.no-liquibase}</spring.profiles.active>
                 <profile.test>testdev</profile.test>
-                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/AbsaDTGatewayApplication</liquibase-plugin.url>
-                <liquibase-plugin.username>AbsaDTGatewayApplication</liquibase-plugin.username>
-                <liquibase-plugin.password/>
+                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/GatewayDB</liquibase-plugin.url>
+                <liquibase-plugin.username>absadigitaluser</liquibase-plugin.username>
+                <liquibase-plugin.password>Q256ueennS7AYa5dNZUw987656782343y6hdw8vtiuegrbd</liquibase-plugin.password>
             </properties>
             <dependencies>
                 <dependency>
@@ -984,9 +984,9 @@
                 <!-- default Spring profiles -->
                 <spring.profiles.active>prod${profile.api-docs}${profile.tls}${profile.e2e}${profile.no-liquibase}</spring.profiles.active>
                 <profile.test>testprod</profile.test>
-                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/AbsaDTGatewayApplication</liquibase-plugin.url>
-                <liquibase-plugin.username>AbsaDTGatewayApplication</liquibase-plugin.username>
-                <liquibase-plugin.password/>
+                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/GatewayDB</liquibase-plugin.url>
+                <liquibase-plugin.username>absadigitaluser</liquibase-plugin.username>
+                <liquibase-plugin.password> Q256ueennS7AYa5dNZUw987656782343y6hdw8vtiuegrbd</liquibase-plugin.password>
             </properties>
             <build>
                 <plugins>

@@ -1,0 +1,15 @@
+{
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Spring Boot-AbsaDtGatewayApplicationApp<absa-dt-gateway-application>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "ug.co.absa.africa.payments.gateway.AbsaDtGatewayApplicationApp",
+            "projectName": "absa-dt-gateway-application",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
